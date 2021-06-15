@@ -1,0 +1,12 @@
+name: ScavengerHunt
+prefix: ScavengerHunt
+main: com.milesacq.ScavengerHuntMaven
+version: "1.0"
+api-version: "1.17"
+description: Scavenger hunt commands.
+commands:
+  hunt:
+    description: This is a demo command.
+    usage: /hunt
+    permission: ScavengerHunt.hunt
+    permission-message: You don't have permission
