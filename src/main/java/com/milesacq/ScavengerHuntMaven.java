@@ -99,7 +99,7 @@ public class ScavengerHuntMaven extends JavaPlugin implements Listener, CommandE
                 String[] progress = bPlayer.getAchievementProgress(path);
                 bPlayer.getPlayer().sendMessage(progress[0] +  progress[1] + progress[2] + progress[3] + progress[4]);
                 bPlayer.getPlayer().sendMessage(progress[5] +  progress[6] + progress[7] + progress[8] + progress[9]);
-                bPlayer.getPlayer().sendMessage(progress[10] +  progress[11]);
+                bPlayer.getPlayer().sendMessage(progress[10] );
 
                 String fileContent;
                 return true;
